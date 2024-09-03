@@ -96,4 +96,20 @@ html {
     background-color: rgb(11, 145, 133);
     font-family: Georgia, serif; /* Added generic font family */
   }
+
+  
+  button:hover {
+    background-color: rgb(0, 255, 170);
+    cursor: pointer;
+    border-radius: 0;
+    font-family: Georgia, serif; /* Added generic font family */
+    font-style: oblique;
+    font-weight: bold;
+  }
+
+  textarea:focus {
+    border-radius: 20px;
+    padding: 10px;
+    border-color: black;
+  }
   
