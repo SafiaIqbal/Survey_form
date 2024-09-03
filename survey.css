@@ -9,3 +9,49 @@ html {
     background-size: cover;
   }
   
+  .figma {
+    width: 200px;
+    height: 200px;
+    display: inline;
+  }
+  
+  .light-red {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 115, 115);
+    border-radius: 0 20px 20px 0;
+    display: inline-block;
+  }
+  
+  .red {
+    width: 40px;
+    height: 40px;
+    background-color: #ff3b00;
+    border-radius: 20px 0 0 20px;
+    float: left;
+  }
+  
+  .purple {
+    width: 40px;
+    height: 40px;
+    background-color: #ae4dff;
+    border-radius: 20px 0 0 20px;
+    margin-top: -4px;
+  }
+  
+  .blue {
+    width: 39px;
+    height: 39px;
+    background-color: #00beff;
+    border-radius: 20px;
+    margin-top: -39.5px;
+    margin-left: 41px;
+  }
+  
+  .green {
+    width: 40px;
+    height: 40px;
+    background-color: #00da7b;
+    border-radius: 20px 0 20px 20px;
+  }
+  
