@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="star"></div>
+    <div class="figma">
+        <div class="light-red"></div>
+        <div class="red"></div>
+     <div class="purple"></div>
+    <div class="blue"></div>
+    <div class="green"></div>    
+</div>
+<h1>SURVEY FORM</h1>
+<p id="description">Survey Form of UI/UX Students </p>
+<form>
+<label for="name">Name:<input type="text" id="name" placeholder="Enter Your Name" required>  </label>
+<label for="Email">Email:<input type="email" id="Email" placeholder="Enter Your Email" required> </label>
+<label for="Number">How many hours per week do you spend on this program compared to the other program? <input type="number" id="Number" max="16" min="4">   </label>
+<label for="Radio"><label>Is this Program Useful?</label>Yes<input type="radio" id="Radio" name="yes-no"> </label>
+<label for="Radio">No<input type="radio" id="Radio" name="yes-no"> </label>
+<label for="Select">How much you have learnt from this program?</label>
+<select>
+    <option>Select one option</option>
+            <option> I can only make a design</option>
+            <option>I can design a website/mobile app using figma and do the required prototyping</option>
+             <option>I can code the website/mobile app designed in figma and other tools</option> 
+        </select>
+        <label for="Check">Duration of the Course</label>
+        <input type="checkbox" name="checked" id="check" value="2">2Months</input>
+        <input type="checkbox" name="checked" id="check" value="4">4Months</input>
+        <input type="checkbox" name="checked" id="check" value="6">6Months</input>
+        <input type="checkbox" name="checked" id="check" value="9">9Months</input>
+
+           
+        <textarea rows="10" cols="50" placeholder="Your text here..."></textarea>
+        <button type="submit">Submit</button>
+        </form>
+</body>
+</html>

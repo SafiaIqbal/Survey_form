@@ -1,0 +1,115 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: ridge;
+    border-color: #ae4dff;
+    background-image: url("Group 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .figma {
+    width: 200px;
+    height: 200px;
+    display: inline;
+  }
+  
+  .light-red {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 115, 115);
+    border-radius: 0 20px 20px 0;
+    display: inline-block;
+  }
+  
+  .red {
+    width: 40px;
+    height: 40px;
+    background-color: #ff3b00;
+    border-radius: 20px 0 0 20px;
+    float: left;
+  }
+  
+  .purple {
+    width: 40px;
+    height: 40px;
+    background-color: #ae4dff;
+    border-radius: 20px 0 0 20px;
+    margin-top: -4px;
+  }
+  
+  .blue {
+    width: 39px;
+    height: 39px;
+    background-color: #00beff;
+    border-radius: 20px;
+    margin-top: -39.5px;
+    margin-left: 41px;
+  }
+  
+  .green {
+    width: 40px;
+    height: 40px;
+    background-color: #00da7b;
+    border-radius: 20px 0 20px 20px;
+  }
+  
+  h1 {
+    color: rgb(53, 138, 138);
+    text-decoration: solid;
+  }
+  
+  p {
+    color: rgb(5, 139, 139);
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  input {
+    margin: 5px;
+    border-radius: 3px;
+    padding: 3px;
+    font-style: italic;
+    font-weight: bold;
+    display: inline;
+  }
+
+  input:hover {
+    background-color: rgb(137, 230, 230);
+    cursor: pointer;
+  }
+  
+  button {
+    display: block;
+    margin-left: 50%;
+    margin-top: 3%;
+    width: 15rem;
+    height: 4rem;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgb(11, 145, 133);
+    font-family: Georgia, serif; /* Added generic font family */
+  }
+
+  
+  button:hover {
+    background-color: rgb(0, 255, 170);
+    cursor: pointer;
+    border-radius: 0;
+    font-family: Georgia, serif; /* Added generic font family */
+    font-style: oblique;
+    font-weight: bold;
+  }
+
+  textarea:focus {
+    border-radius: 20px;
+    padding: 10px;
+    border-color: black;
+  }
+  
