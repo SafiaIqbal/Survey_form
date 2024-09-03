@@ -55,3 +55,14 @@ html {
     border-radius: 20px 0 20px 20px;
   }
   
+  h1 {
+    color: rgb(53, 138, 138);
+    text-decoration: solid;
+  }
+  
+  p {
+    color: rgb(5, 139, 139);
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
